@@ -71,7 +71,6 @@ To get started with HolbieBot, follow these steps:
 - Flask
 - PyTorch
 - NLTK
-- SQLite
 
 ### Backend Setup
 
