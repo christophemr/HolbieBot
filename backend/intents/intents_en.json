@@ -1,0 +1,391 @@
+{
+  "intents": [
+    {
+      "tag": "hello",
+      "patterns": [
+        "Hello!",
+        "Hi!",
+        "Hey!",
+        "Greetings!",
+        "Hi there!"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi! How can I help you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Bye"
+      ],
+      "responses": [
+        "Goodbye! Feel free to come back if you need further assistance.",
+        "See you soon!"
+      ]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": [
+        "Thank you very much",
+        "Thanks a lot",
+        "Thanks for your help",
+        "Thank you"
+      ],
+      "responses": [
+        "You're welcome!",
+        "You're welcome! If you have any other questions or need further assistance, feel free to ask."
+      ]
+    },
+    {
+      "tag": "teachers",
+      "patterns": [
+        "Are there teachers?",
+        "Is there a teacher?",
+        "Is there any teaching staff?",
+        "Who conducts the classes?",
+        "Are there instructors?",
+        "Who teaches the classes?"
+      ],
+      "responses": [
+        "There are no teachers; we promote peer learning with a software engineer accompanying us throughout the training."
+      ]
+    },
+    {
+      "tag": "typical_day",
+      "patterns": [
+        "What does a typical day look like?",
+        "What is a standard day like?",
+        "How does a usual day go?",
+        "How does a normal day go?",
+        "Typical day"
+      ],
+      "responses": [
+        "Days at Holberton start with self-directed work, followed by a Stand up at 11 AM, then the Speaker Of the Day. The afternoon is dedicated to projects."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are the opening hours?",
+        "What hours are you open?",
+        "What time are you open?",
+        "When do you open and close?",
+        "What are your reception hours?",
+        "What are the opening times?"
+      ],
+      "responses": [
+        "The campuses are open from 9 AM to 6 PM every day except weekends."
+      ]
+    },
+    {
+      "tag": "visit",
+      "patterns": [
+        "How to visit the school?",
+        "How to arrange a school visit?",
+        "How to organize a visit to the institution?",
+        "How to schedule a school tour?",
+        "How to discover the premises?",
+        "When are open days?",
+        "How to visit the campus?",
+        "How to arrange a campus tour?",
+        "How to organize a campus visit?",
+        "How to schedule a campus tour?",
+        "How to discover the campus?"
+      ],
+      "responses": [
+        "Open days are regularly organized. You can also make an appointment to visit a campus. Check the Agenda tab for more information."
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "What are the benefits of joining Holberton School?",
+        "Why choose Holberton School for learning?",
+        "What are the reasons to enroll at Holberton School?",
+        "What makes Holberton School a distinguished educational choice?"
+      ],
+      "responses": [
+        "At Holberton, only your motivation matters. We welcome all who are curious and determined.",
+        "Regardless of your background, you are welcome to develop your skills.",
+        "The training is hybrid: 2 days in person and 3 days at your choice. Collaborative work with tools like GitHub.",
+        "By joining Holberton, you benefit from comprehensive training, a professional network, and continuous support for your development."
+      ]
+    },
+    {
+      "tag": "online_test",
+      "patterns": [
+        "What types of online tests are offered for admission?",
+        "How does the online test work?",
+        "What is the online test about?",
+        "What are the online tests?",
+        "What is the online test?",
+        "What is the online test made of?",
+        "What are the tests online?",
+        "What is the test online?",
+        "What is the test?",
+        "What's in the test?"
+      ],
+      "responses": [
+        "Step 1: A 30/60 minute quiz to get a feel for the Holberton method. You will seek answers independently. Step 2: Guided creation of a mini website, with a two-week deadline. Step 3: A final 30-minute sprint to validate the acquired knowledge."
+      ]
+    },
+    {
+      "tag": "hippocamp",
+      "patterns": [
+        "What is the Hippocamp' at Holberton?",
+        "What is the Hippocamp' program?",
+        "What is the free month?",
+        "What is the free month?",
+        "Can you explain the concept of the free trial month?",
+        "What are the goals of the Hippocamp'?",
+        "What is the Hippocamp'?"
+      ],
+      "responses": [
+        "The Hippocamp' is the first month of training at Holberton, a trial period to discover our pedagogical approach and validate your abilities.",
+        "It's an opportunity for new students to discover our learning environment and for us to assess their potential.",
+        "The Hippocamp' allows students to join the first month without passing the admission test, but to continue, you must validate the objectives with a score of at least 80%."
+      ]
+    },
+    {
+      "tag": "registration",
+      "patterns": [
+        "What are the procedures for signing the registration contract?",
+        "Can you describe the signing process at Holberton?",
+        "What steps must be followed to validate my registration?",
+        "How to complete the registration?",
+        "How to finalize the registration?",
+        "How to validate the registration?",
+        "I want to validate the registration",
+        "I would like to validate the registration"
+      ],
+      "responses": [
+        "To finalize your registration, complete and sign the registration contract sent by email or available on our platform via DocuSign. Once signed, your registration will be validated."
+      ]
+    },
+    {
+      "tag": "prerequisites",
+      "patterns": [
+        "What are the prerequisites to join Holberton?",
+        "Is there a minimum age requirement to enroll?",
+        "Do I need a diploma like the baccalaureate to enter Holberton?",
+        "What are the requirements to enter Holberton?",
+        "What are the preconditions to be accepted at Holberton?",
+        "How to enter Holberton?",
+        "How to join Holberton?",
+        "How to enter this school?",
+        "How to join this school?",
+        "Under what conditions can I enter Holberton?"
+      ],
+      "responses": [
+        "The only prerequisite to join Holberton is to be 18 years old. No diploma, not even the baccalaureate, is required. We believe in an inclusive approach where your motivation and passion for technology are the most important criteria.",
+        "Whether you are post-baccalaureate, in professional retraining, or simply passionate about software development, you are welcome at Holberton. Our program is designed to provide quality training regardless of your previous background."
+      ]
+    },
+    {
+      "tag": "alternance",
+      "patterns": [
+        "Can I follow a work-study program?",
+        "Is there a possibility of doing a work-study program?",
+        "What are the advantages of a work-study program?",
+        "Can I do a work-study program?",
+        "Can I be in a work-study program?"
+      ],
+      "responses": [
+        "Work-study offers a unique opportunity to combine theory and practice. The specializations, available only in the second year, are accessible in work-study mode with 4 days in the company and 1 day on campus."
+      ]
+    },
+    {
+      "tag": "specialization",
+      "patterns": [
+        "How to specialize?",
+        "What are the conditions to enter a specialization?",
+        "Can I specialize in a specific field?",
+        "I already have a training and I want to specialize?",
+        "I want to directly enter a specialization",
+        "I want to specialize directly",
+        "How to be in a specialization?"
+      ],
+      "responses": [
+        "To access a specialization at Holberton, you must first complete the Fundamentals at holberton. If it was not with us not, after evaluation, you must complete a two-week upgrade program.",
+        "You can apply directly for a specialization if you have the necessary technical skills, assessed according to the RNCP 37674 title. You will have to demonstrate your skills during a two-week bridge. "
+      ]
+    },
+    {
+      "tag": "available_specializations",
+      "patterns": [
+        "What specializations are available at Holberton?",
+        "What fields of specialization are offered at Holberton?",
+        "Can you tell me about the specializations offered at Holberton?",
+        "What specializations are there?",
+        "What specializations do you have?",
+        "What specializations do you offer?",
+        "What specializations are available?",
+        "What specializations are there?"
+      ],
+      "responses": [
+        "At Holberton, we offer several specializations to meet various market needs: Full-Stack Web Development, Cybersecurity, Machine Learning & Artificial Intelligence, Systems & Blockchain, Virtual Reality & Augmented Reality."
+      ]
+    },
+    {
+      "tag": "fundamentals",
+      "patterns": [
+        "What does the initial training consist of?",
+        "What are the basics of development?",
+        "What is the Fundamentals program?",
+        "What are the Fundamentals?",
+        "What is the Fundamentals program?",
+        "What is included in the Fundamentals?",
+        "What languages are taught in the Fundamentals?",
+        "What do you learn in the Fundamentals?",
+        "What languages are used in the Fundamentals?"
+      ],
+      "responses": [
+        "The Fundamentals cover the basics of software development: C programming, web design with HTML/CSS, databases, Python, and JavaScript. You will learn to solve complex problems, design efficient algorithms, and collaborate in teams. The program emphasizes practical projects."
+      ]
+    },
+    {
+      "tag": "financing",
+      "patterns": [
+        "What payment methods are available?",
+        "Are there student loans?",
+        "Are there financing options?",
+        "How to pay for the training?",
+        "How to pay?",
+        "How do you pay?",
+        "How to pay for the school?"
+      ],
+      "responses": [
+        "We offer various financing options: one-time payment or installment payments up to 8 times during your studies. Deferred payment after the training with our banking partner.",
+        "Our programs can be 100% funded through partnerships with banks, regional supports, Pôle Emploi, CPF, etc."
+      ]
+    },
+    {
+      "tag": "duration",
+      "patterns": [
+        "What is the duration of the training?",
+        "How many months does the training last?",
+        "How long does it last?",
+        "How many months to finish the training?",
+        "How long does the program take?",
+        "How many months to complete the training?",
+        "What is the period needed to complete the training?",
+        "How many months to finish the training?"
+      ],
+      "responses": [
+        "The training lasts 9 months for the Fundamentals and specializations. With a specialization in alternation, it takes 24 months."
+      ]
+    },
+    {
+      "tag": "who_is_it_for",
+      "patterns": [
+        "Who is the training for?",
+        "Who is the training intended for?",
+        "What profiles are targeted by the training?",
+        "Who can benefit from the training?",
+        "Who is the training designed for?",
+        "Who can take the training?",
+        "What is the profile of the participants?",
+        "Who can do the training?"
+      ],
+      "responses": [
+        "The training is intended for a wide range of profiles: young graduates, career changers, post-baccalaureate students, and professionals looking to improve or change fields. Join our dynamic community!"
+      ]
+    },
+    {
+      "tag": "foreign_student",
+      "patterns": [
+        "I am a foreigner, can I still apply?",
+        "I am not French, is it a problem?",
+        "I have a foreign nationality, can I still register?",
+        "I am not French"
+      ],
+      "responses": [
+        "International candidates follow the same steps and admission tests as French candidates. Before starting the training, submit a copy of your residence permit or visa. Holberton does not provide assistance with administrative procedures related to the residence permit."
+      ]
+    },
+    {
+      "tag": "status",
+      "patterns": [
+        "What status will I have at Holberton?",
+        "What will be my status?",
+        "What will I be registered as?",
+        "What is the status?",
+        "What is the status at Holberton?"
+      ],
+      "responses": [
+        "You will be a student or trainee."
+      ]
+    },
+    {
+      "tag": "job_guarantee",
+      "patterns": [
+        "How do you guarantee a job after graduation?",
+        "How do you guarantee a job after the training?",
+        "How can I be sure to get a job after?",
+        "How do you guarantee a job after the training?",
+        "What are the chances of finding a job after graduation?"
+      ],
+      "responses": [
+        "Actual group is our employment partner in France. At the end of the training, we guarantee two job offers related to the chosen specialization."
+      ]
+    },
+    {
+      "tag": "evaluation",
+      "patterns": [
+        "What are the evaluation methods?",
+        "What are the evaluation techniques?",
+        "How are students graded?",
+        "What are the evaluation criteria?"
+      ],
+      "responses": [
+        "Continuous assessment to validate the Holberton certificate. Projects are graded throughout the year with an average of 80% required each term."
+      ]
+    },
+    {
+      "tag": "speak_english",
+      "patterns": [
+        "Do I need to speak English?",
+        "Do I have to speak English?"
+      ],
+      "responses": [
+        "All pedagogical content and end-of-year projects are in English. This exercise prepares you best for the working world."
+      ]
+    },
+    {
+      "tag": "pedagogy",
+      "patterns": [
+        "What is the teaching method?",
+        "How do you learn at Holberton?",
+        "What is the learning approach?",
+        "How is teaching conducted?",
+        "What is the teaching technique?",
+        "How does learning take place?",
+        "What is the training method?",
+        "How do you learn?",
+        "How are you trained?",
+        "How are we trained?"
+      ],
+      "responses": [
+        "Our method is based on autonomy and immersion in real work environments. Students have access to a complete online platform with educational resources and are supported by professionals.",
+        "Every day, challenging technical projects foster constant progression. Students solve these projects solo or in teams, reinforcing collaboration and mutual aid.",
+        "From day one, learners dive into coding and work on real challenges, promoting self-learning and the ability to solve real-world problems."
+      ]
+    },
+    {
+      "tag": "rncp",
+      "patterns": [
+        "What is the value of the diploma?",
+        "Is the RNCP recognized by the state?",
+        "What is the value of the RNCP title?",
+        "Does the RNCP have value?"
+      ],
+      "responses": [
+        "The RNCP lists diplomas, professional titles, and certificates recognized by the French state, ensuring their quality and readability.",
+        "The RNCP values skills acquired during training and translates them into recognized qualifications. This facilitates job access and professional mobility."
+      ]
+    }
+  ]
+}
