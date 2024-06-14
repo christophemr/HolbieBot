@@ -1,0 +1,391 @@
+{
+  "intents": [
+    {
+      "tag": "bonjour",
+      "patterns": [
+        "Bonjour!",
+        "Salut!",
+        "Coucou!",
+        "Hello!",
+        "Salut ça va?"
+      ],
+      "responses": [
+        "Bonjour! Comment puis-je vous aider?",
+        "Salut! En quoi puis-je vous assister aujourd'hui?"
+      ]
+    },
+    {
+      "tag": "au_revoir",
+      "patterns": [
+        "Au revoir",
+        "À bientôt",
+        "À plus tard"
+      ],
+      "responses": [
+        "Au revoir! N'hésitez pas à revenir si vous avez besoin d'aide.",
+        "À bientôt!"
+      ]
+    },
+    {
+      "tag": "merci",
+      "patterns": [
+        "merci beaucoup",
+        "merci bien",
+        "merci de m'avoir aidé",
+        "merci"
+      ],
+      "responses": [
+        "Je vous en prie!",
+        "De rien ! Si vous avez d'autres questions ou besoin d'aide, n'hésitez pas."
+      ]
+    },
+    {
+      "tag": "professeur",
+      "patterns": [
+        "Est ce qu'il y a des professeurs",
+        "Y a t-il un professeur ?",
+        "Est-ce qu'il y a du personnel enseignant ?",
+        "Qui assure les cours ?",
+        "Y a-t-il des enseignants ?",
+        "Qui donne les cours ?"
+      ],
+      "responses": [
+        "Il n'y a pas de professeur. Nous favorisons l'apprentissage par pairs avec un software engineer qui nous accompagne."
+      ]
+    },
+    {
+      "tag": "journée",
+      "patterns": [
+        "Comment se déroule une journée typique?",
+        "Comment se déroule une journée standard",
+        "Comment se déroule une journée habituelle",
+        "Comment se déroule une journée normale",
+        "journée classique"
+      ],
+      "responses": [
+        "Les journées à Holberton débutent par un travail en autonomie, suivi d'un Stand up à 11h, puis le Speaker Of the Day. L'après-midi est consacré aux projets."
+      ]
+    },
+    {
+      "tag": "horaires",
+      "patterns": [
+        "Quels sont les horaires d'ouverture ?",
+        "Quels sont les horaires pendant lesquels vous êtes ouverts ?",
+        "À quelles heures êtes-vous ouverts ?",
+        "Quand ouvrez-vous et fermez-vous ?",
+        "Quels sont vos horaires d'accueil ?",
+        "C'est ouvert de quelle heure à quelle heure?"
+      ],
+      "responses": [
+        "Les campus sont ouverts de 9h à 18h tous les jours sauf le week-end."
+      ]
+    },
+    {
+      "tag": "visite",
+      "patterns": [
+        "Comment visiter l'école",
+        "Comment faire une visite de l'école ?",
+        "Comment organiser une visite de l'établissement ?",
+        "Comment planifier une visite des locaux de l'école ?",
+        "comment découvrir les locaux",
+        "Quand y a t'il des journées portes ouvertes",
+        "Comment visiter le campus ?",
+        "Comment faire une visite du campus ?",
+        "Comment organiser une visite du campus ?",
+        "Comment planifier une visite des locaux du campus ?",
+        "Comment découvrir le campus ?"
+      ],
+      "responses": [
+        "Des journées portes ouvertes sont régulièrement organisées. Vous pouvez aussi prendre rendez-vous pour visiter un campus. Consultez l'onglet Agenda pour plus d'informations."
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "Quels sont les avantages de rejoindre Holberton School ?",
+        "Pourquoi choisir Holberton School comme destination d'apprentissage ?",
+        "Quelles sont les raisons de s'inscrire à Holberton School ?",
+        "En quoi Holberton School se distingue-t-elle comme choix d'éducation ?"
+      ],
+      "responses": [
+        "Chez Holberton, seule votre motivation compte. Nous accueillons tous ceux qui sont curieux et déterminés.",
+        "Peu importe d'où vous venez, vous êtes les bienvenus pour développer vos compétences.",
+        "La formation est hybride : 2 jours en présentiel et 3 jours au choix. Travail collaboratif avec des outils comme GitHub.",
+        "En rejoignant Holberton, vous bénéficiez d'une formation complète, d'un réseau professionnel et d'un soutien continu pour votre évolution."
+      ]
+    },
+    {
+      "tag": "test en ligne",
+      "patterns": [
+        "quels type tests en ligne proposez-vous pour l'admission?",
+        "Comment se déroule le test en ligne?",
+        "En quoi consiste le test en ligne ?",
+        "C'est quoi les test en ligne ?",
+        "C'est quoi le test en ligne ?",
+        "De quoi est fait le test en ligne ?",
+        "Quels sont les tests en ligne ?",
+        "Quel est le test en ligne ?",
+        "C'est quoi le test ?",
+        "il y a quoi dans le test ?"
+      ],
+      "responses": [
+        "Etape 1: Quizz de 30/60 minutes pour découvrir la méthode Holberton. Etape 2: Création d'un mini site internet guidée, délai de deux semaines. Etape 3: Sprint final de 30 minutes pour valider les connaissances."
+      ]
+    },
+    {
+      "tag": "l'hippocamp'",
+      "patterns": [
+        "Qu'est-ce que l'Hippocamp' chez Holberton?",
+        "Qu'est-ce que le programme Hippocamp' ?",
+        "Qu'est ce que le mois gratuit ?",
+        "C'est quoi le mois gratuit ?",
+        "Pouvez-vous expliquer le concept du mois d'essai gratuit ?",
+        "Quels sont les objectifs de l'Hippocamp'?",
+        "c'est quoi l'Hippocamp'?"
+      ],
+      "responses": [
+        "L'Hippocamp' est le premier mois de formation chez Holberton, une période d'essai pour découvrir notre approche pédagogique et valider vos aptitudes.",
+        "C'est une opportunité pour les nouveaux étudiants de découvrir notre environnement d'apprentissage et pour nous d'évaluer leur potentiel.",
+        "L'Hippocamp' permet d'intégrer le premier mois sans passer le test d'admission, mais pour continuer, il faut valider les objectifs avec un score d'au moins 80%."
+      ]
+    },
+    {
+      "tag": "inscription",
+      "patterns": [
+        "Quelles sont les modalités pour signer le contrat d'inscription?",
+        "Pouvez-vous décrire le processus de signature chez Holberton?",
+        "Quelles étapes doivent être suivies pour valider mon inscription?",
+        "Comment finir l'inscription ?",
+        "Comment finaliser l'inscription ?",
+        "Comment valider l'inscription ?",
+        "Je veux valider l'inscription",
+        "je voudrais valider l'inscription"
+      ],
+      "responses": [
+        "Pour finaliser votre inscription, complétez et signez le contrat d'inscription envoyé par email ou disponible sur notre plateforme via DocuSign. Une fois signé, votre inscription sera validée."
+      ]
+    },
+    {
+      "tag": "prérequis",
+      "patterns": [
+        "Quels sont les prérequis pour rejoindre Holberton?",
+        "Y a-t-il un âge minimum requis pour s'inscrire?",
+        "Est-ce que je dois avoir un diplôme comme le bac pour intégrer Holberton?",
+        "Quelles sont les exigences pour entrer à Holberton ?",
+        "Quelles sont les préconditions pour être accepté(e) à Holberton ?",
+        "Comment rentrer à Holberton ?",
+        "Comment intégrer Holberton?",
+        "Comment renter dans cette école ?",
+        "Comment intégrer cette école ?",
+        "Sous quelles condition puis je rentrer à Holberton ?"
+      ],
+      "responses": [
+        "L'unique prérequis pour intégrer Holberton est d'avoir 18 ans. Aucun diplôme n'est requis, seulement votre motivation et passion pour la technologie.",
+        "Que vous soyez post-bac, en reconversion, ou passionné par le développement informatique, vous êtes le bienvenu. Notre programme est conçu pour offrir une formation de qualité, peu importe votre parcours antérieur."
+      ]
+    },
+    {
+      "tag": "alternance",
+      "patterns": [
+        "Est-ce que je peux suivre une formation en alternance ?",
+        "Y a-t-il une possibilité d'etre en alternance ?",
+        "Quels sont les avantages de l'alternance ?",
+        "Je peux faire de l'alternance ?",
+        "Est ce que je peux être en alternance ?"
+      ],
+      "responses": [
+        "L'alternance permet de combiner théorie et pratique. Les spécialisations en deuxième année sont accessibles en alternance avec 4 jours en entreprise et 1 jour sur le campus."
+      ]
+    },
+    {
+      "tag": "spécialisation",
+      "patterns": [
+        "Comment faire une spécialisation ?",
+        "Quelles sont les conditions pour entrer en spécialisation?",
+        "Est-ce que je peux me spécialiser dans un domaine spécifique?",
+        "J'ai déja une formation et je veux faire une spécialisation ?",
+        "Je veux directement entrer en spécialisation",
+        "je veux faire une spécialisation directement",
+        "comment être en spécialisation ?"
+      ],
+      "responses": [
+        "Pour accéder à une spécialisation, vous devez d'abord valider les Fondamentaux. Autrement, vous devrez passer par une passerelle de deux semaines pour confirmer votre niveau.",
+        "Vous pouvez postuler directement à une spécialisation si vous avez les compétences techniques requises et le titre RNCP 37674. Vous devrez néanmoins etre evaluer sur 2 semaines pour vérifier vos acquis"
+      ]
+    },
+    {
+      "tag": "spécialisations_disponibles",
+      "patterns": [
+        "Quelles sont les spécialisations disponibles chez Holberton ?",
+        "Quels sont les domaines de spécialisation proposés à Holberton ?",
+        "Peux-tu me parler des spécialisations offertes à Holberton ?",
+        "Quelles spécialisations y a t'il?",
+        "Que faites vous comme spécialisations?",
+        "Vous faites quoi comme spécialisations?",
+        "Vous avez quoi comme spécialisations?",
+        "Il y a quoi comme spécialisations?"
+      ],
+      "responses": [
+        "Chez Holberton, nous proposons plusieurs spécialisations : Développement Web Full-Stack, Cybersécurité, Machine Learning & Intelligence Artificielle, Systèmes & Blockchain, Réalité Virtuelle & Réalité Augmentée."
+      ]
+    },
+    {
+      "tag": "fondamentaux",
+      "patterns": [
+        "En quoi consiste la formation initiale?",
+        "Quelles sont les bases du développement?",
+        "Quel est le programme des fondamentaux?",
+        "C'est quoi les fondamentaux?",
+        "C'est quoi le programme des fondamentaux ?",
+        "Il y a quoi dans les fondamentaux ?",
+        "quels langages on apprend pendant les fondamentaux ?",
+        "On apprend quoi pendant les fondamentaux ?",
+        "On utilise quels langages pendant les fondamentaux ??"
+      ],
+      "responses": [
+        "Les fondamentaux couvrent les bases du développement : langage C, HTML/CSS, bases de données, Python et Javascript. Vous apprendrez à résoudre des problèmes complexes, concevoir des algorithmes et collaborer en équipe. Le parcours met l'accent sur la pratique à travers des projets concrets."
+      ]
+    },
+    {
+      "tag": "financement",
+      "patterns": [
+        "Quels moyens de paiement y a-t-il ?",
+        "Y a-t-il des prêts étudiant ?",
+        "Y a-t-il des options de financement ?",
+        "Comment payer la formation ?",
+        "Comment payer ?",
+        "On paye comment ?",
+        "On paye comment l'école ?"
+      ],
+      "responses": [
+        "Nous proposons diverses options de financement : paiement en une fois ou échelonné pendant vos études, jusqu'à 8 fois. Paiement différé après la formation avec notre partenaire bancaire.",
+        "Nos formations sont jusqu'à 100% finançables avec des partenariats bancaires, soutiens régionaux, Pôle Emploi, CPF, etc."
+      ]
+    },
+    {
+      "tag": "durée",
+      "patterns": [
+        "Quelle est la durée de la formation ?",
+        "Combien de mois dure la formation ?",
+        "Combien de temps ca dure ?",
+        "Combien de mois pour finir la formation ?",
+        "En combien de temps se termine le programme ?",
+        "Combien de mois faut-il pour compléter la formation ?",
+        "Quelle est la période nécessaire pour achever la formation ?",
+        "En combien de mois puis-je terminer la formation ?"
+      ],
+      "responses": [
+        "La formation dure 9 mois pour les fondamentaux et les spécialisations. Avec une spécialisation en alternance, c'est 24 mois."
+      ]
+    },
+    {
+      "tag": "a qui s'addresse la formation",
+      "patterns": [
+        "A qui est destinée la formation ?",
+        "Pour qui est prévue la formation ?",
+        "Quels sont les profils visés par la formation ?",
+        "Qui peut bénéficier de la formation ?",
+        "Pour qui la formation est-elle conçue ?",
+        "Qui peut suivre la formation ?",
+        "Quel est le profil des participants à la formation ?",
+        "Qui peut faire la formation ?"
+      ],
+      "responses": [
+        "La formation s'adresse à divers profils : jeunes diplômés, personnes en reconversion, étudiants post-bac, et professionnels souhaitant se perfectionner ou changer de domaine. Rejoignez notre communauté dynamique !"
+      ]
+    },
+    {
+      "tag": "étranger",
+      "patterns": [
+        "Je suis étranger, je peux quand même postuler ?",
+        "Je ne suis pas Français, est ce que c'est un problème ?",
+        "J'ai la nationalité étrangère, puis je m'inscrire quand même ?",
+        "Je n'ai pas la nationalité Française"
+      ],
+      "responses": [
+        "Les candidats internationaux suivent les mêmes étapes et tests d'admission. Avant la formation, soumettez une copie de votre carte de séjour ou visa. Holberton ne fournit pas d'assistance pour les démarches administratives liées au titre de séjour."
+      ]
+    },
+    {
+      "tag": "statut",
+      "patterns": [
+        "Quel statut aurais je à Holberton?",
+        "Quel serait mon statut ?",
+        "Je suis inscrit en tant que quoi?",
+        "c'est quoi le statut ?",
+        "c'est quoi le statut à Holberton?"
+      ],
+      "responses": [
+        "Vous serez étudiant ou stagiaire de la formation."
+      ]
+    },
+    {
+      "tag": "emploi",
+      "patterns": [
+        "Comment garantissez vous l'emploi à la sortie ?",
+        "Comment vous garantissez l'emploi à la sortie ?",
+        "Comment être sûr d'avoir un travail après ?",
+        "Comment garantissez vous un travail après la formation ?",
+        "Quelle chance de trouver un emploi en sortant de l'école ?"
+      ],
+      "responses": [
+        "Actual group est notre partenaire emploi en France. À l'issue de la formation, nous garantissons deux propositions de job en lien avec la spécialisation choisie."
+      ]
+    },
+    {
+      "tag": "évaluation",
+      "patterns": [
+        "Quelles sont les modalités d'évaluation ?",
+        "Quelles sont les méthodes d'évaluation ?",
+        "Comment sont notés les élèves ?",
+        "C'est quoi les critères d'évaluation ?"
+      ],
+      "responses": [
+        "Contrôle continu pour valider le certificat Holberton. Les projets sont notés tout au long de l’année avec une moyenne de 80% requise chaque trimestre."
+      ]
+    },
+    {
+      "tag": "parler Anglais",
+      "patterns": [
+        "Faut-il parler anglais ?",
+        "Dois je parler anglais ?"
+      ],
+      "responses": [
+        "Tout le contenu pédagogique et les projets de fin d'année sont en anglais. Cet exercice vous prépare au mieux pour le monde du travail."
+      ]
+    },
+    {
+      "tag": "pédagogie",
+      "patterns": [
+        "Quelle est la méthode d'apprentissage",
+        "comment apprend-on chez Holberton ?",
+        "Quelle est l'approche d'apprentissage ?",
+        "Comment enseigne-t-on ?",
+        "Quelle est la technique d'enseignement ?",
+        "Comment se déroule l'apprentissage ?",
+        "Quelle est la méthode de formation ?",
+        "On apprend comment ?",
+        "On est former comment ?",
+        "Comment est on former ?"
+      ],
+      "responses": [
+        "Notre méthode repose sur l'autonomie et l'immersion dans des environnements de travail réels. Les étudiants ont accès à une plateforme en ligne complète avec des ressources pédagogiques et sont accompagnés par des professionnels.",
+        "Chaque jour, des projets techniques stimulants favorisent une progression constante. Nos étudiants résolvent ces projets en solo ou en équipe, renforçant la collaboration et l'entraide.",
+        "Dès le premier jour, nos apprenants se plongent dans le codage et travaillent sur des défis concrets, favorisant l'auto-apprentissage et la capacité à résoudre des problèmes réels."
+      ]
+    },
+    {
+      "tag": "rncp",
+      "patterns": [
+        "Que vaut le diplôme ?",
+        "est ce le RNCP est reconnu par l'état ?",
+        "Que vaut le titre RNCP ?",
+        "Est ce que le RNCP à une valeur ?"
+      ],
+      "responses": [
+        "Le RNCP répertorie les diplômes, titres à finalité professionnelle et certificats reconnus par l'État français, garantissant leur qualité et lisibilité.",
+        "Le RNCP valorise les compétences acquises lors de la formation et les traduit en qualifications reconnues. Cela facilite l'accès à l'emploi et la mobilité professionnelle."
+      ]
+    }
+  ]
+}
