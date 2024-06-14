@@ -125,7 +125,51 @@ To run the tests, use the following command in the `backend` directory:
 
 ```sh
 python -m unittest discover -s tests
+```
 
+## Updating the Intents File
+
+To train the chatbot for different purposes, you need to update the intents.json file with your own data. The intents.json file contains training data in the form of intents, patterns, and responses. Each intent represents a category of user input and includes examples of what users might say and the corresponding responses.
+```
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "How are you?", "Good morning"],
+      "responses": ["Hello!", "Hi there!", "Greetings!"],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["Goodbye!", "See you later!"],
+      "context_set": ""
+    }
+  ]
+}
+```
+
+tag: A label for the intent.
+patterns: Example phrases that users might say to trigger this intent.
+responses: The chatbot's responses for the intent.
+context_set: (Optional) Context information to handle specific conversation flows.
+
+### Steps to Update the Intents File
+
+1. Open the intents.json file: You can find this file in the backend directory of the project.
+
+2. Modify or add new intents: Follow the structure shown above to add your own intents, patterns, and responses. (Don't forget that there are 2 intent.json files, 1 for each language) 
+
+3. Save the file: Ensure the JSON structure is correctly formatted.
+
+### Re-train the Model
+
+After updating the intents.json file, you need to re-train the model to learn from the new data:
+```sh
+python backend/train.py
+```
+
+This will generate a new model file (données.pth) that the chatbot will use to understand and respond to user inputs based on the updated intents
 
 
 ## Contributing
