@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+  <div class="chatbox" id="chatbox">
+    <div class="chatbox__support">
+      <div class="chatbox__header">
+        <div class="chatbox__image--header">
+          <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Holberton Logo">
+        </div>
+        <div class="chatbox__content--header">
+          <h4 class="chatbox__heading--header" id="headerTitle">Assistant Virtuel Betty</h4>
+          <p class="chatbox__description--header" id="headerDescription">Bonjour. Posez-moi vos questions sur
+            Holbertonschool</p>
+        </div>
+      </div>
+      <div class="chatbox__messages" id="chatboxMessages">
+        <!-- Les messages s'afficheront ici -->
+      </div>
+      <!-- Animation de "typing" juste au-dessus du footer -->
+      <div class="messages__item messages__item--typing" id="typingIndicator" style="display: none;">
+        <div class="typing">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
+      <div class="chatbox__footer">
+        <div class="language-options" id="languageOptions">
+          <div class="language-option" id="frenchOption">
+            <img src="{{ url_for('static', filename='images/french-flag.png') }}" alt="Français">
+          </div>
+          <div class="language-option" id="englishOption">
+            <img src="{{ url_for('static', filename='images/english-flag.png') }}" alt="English">
+          </div>
+        </div>
+        <select id="language" class="language-selector" style="display:none;">
+          <option value="fr">Français</option>
+          <option value="en">English</option>
+        </select>
+        <input type="text" id="chatInput" placeholder="Écrivez un message...">
+        <button class="chatbox__send--footer send__button" id="sendButton">Envoyer</button>
+        <button class="voice-input-button" id="voiceInputButton">🎤</button>
+      </div>
+    </div>
+    <div class="chatbox__button">
+      <button id="openChatButton"><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+    </div>
+  </div>
+</div>
+
+<script>
+  var SCRIPT_ROOT = "{{ request.script_root | tojson | safe }}";
+</script>
+<script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+{% endblock %}
