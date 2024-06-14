@@ -107,13 +107,6 @@ To get started with HolbieBot, follow these steps:
     python app.py
     ```
 
-### Frontend Setup
-
-1. **Navigate to the frontend directory**:
-    ```sh
-    cd ../frontend
-    ```
-
 ## Usage
 
 Once the backend server is running, open your web browser and go to `http://127.0.0.1:5000` to interact with HolbieBot.
