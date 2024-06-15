@@ -22,16 +22,18 @@ HolbieBot is an AI-powered chatbot designed to assist users with queries related
 
 ## Flowchart
 
+## Flowchart
+
 ```mermaid
 graph TD
-    A[User Input] -->|Text or Voice| B[Frontend Handling<br>(JavaScript)]
-    B --> C[Flask Backend<br>(HTTP POST Request)]
+    A[User Input] -->|Text or Voice| B[Frontend Handling (JavaScript)]
+    B --> C[Flask Backend (HTTP POST Request)]
     C --> D{Determine Language}
-    D -->|French| E[Process Message<br>(Tokenization, Stemming, Model Prediction)]
-    D -->|English| E[Process Message<br>(Tokenization, Stemming, Model Prediction)]
-    E --> F[Get Response<br>(From Model)]
-    F --> G[Log to Database<br>(SQLite)]
-    F --> H[Send Response to User<br>(Flask to Frontend)]
+    D -->|French| E[Process Message (Tokenization, Stemming, Model Prediction)]
+    D -->|English| E[Process Message (Tokenization, Stemming, Model Prediction)]
+    E --> F[Get Response (From Model)]
+    F --> G[Log to Database (SQLite)]
+    F --> H[Send Response to User (Flask to Frontend)]
     G --> H
 ```
 ## Project Structure
