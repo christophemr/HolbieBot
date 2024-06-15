@@ -5,6 +5,7 @@ from chat import get_response_fr, get_response_en
 app = Flask(__name__, static_folder='../frontend/static', template_folder='templates')
 CORS(app)
 
+# Set secure cookies and session management
 app.config.update(
     # Cookies are protected from being accessed by malicious scripts
     SESSION_COOKIE_HTTPONLY=True,
@@ -50,5 +51,26 @@ def predict():
     message = {"answer": response}
     return jsonify(message)
 
+# Error handler for 404 Not Found
+@app.errorhandler(404)
+def not_found_error(error):
+    response = jsonify({'error': '404 Not Found'})
+    response.status_code = 404
+    return response
+
+# Error handler for 500 Internal Server Error
+@app.errorhandler(500)
+def internal_error(error):
+    response = jsonify({'error': '500 Internal Server Error'})
+    response.status_code = 500
+    return response
+
+# Error handler for 403 Forbidden
+@app.errorhandler(403)
+def forbidden_error(error):
+    response = jsonify({'error': '403 Forbidden'})
+    response.status_code = 403
+    return response
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000)
