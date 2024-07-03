@@ -91,6 +91,13 @@ To get started with HolbieBot, follow these steps:
     pip install -r requirements.txt
     ```
 
+3.1 **Install the punkt package**:
+    ```sh
+    uncomment that line in the nltk_utils.py file #nltk.download('punkt')
+    run the file
+    python nltk_utils.py
+    ```
+
 4. **Set up the database**:
     ```sh
     python database/init_db.py
